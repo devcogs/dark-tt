@@ -28,14 +28,19 @@ A dark Twenty Ten child theme, with a few new features.
  * Click Install Now
  * Activate Theme
 
-###  v0.2 Changes:
+####  v0.4 Changes:
+
+ * update stylesheet
+ * header image fixes
+
+####  v0.2 Changes:
 
  * update script/style enqueue
  * update header image checks
  * esc home url
  * license and copyright info
 
-### v0.1 Changes:
+#### v0.1 Changes:
 
  * added jquery and css to make the main menu sticky
  * added scroll to top button

@@ -41,6 +41,8 @@
 				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
 
 				<?php
+					$header_image_width = get_theme_support( 'custom-header', 'width' );
+					
 					if ( is_singular() && current_theme_supports( 'post-thumbnails' ) &&
 							has_post_thumbnail( $post->ID ) &&
 							( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-thumbnail' ) ) &&
