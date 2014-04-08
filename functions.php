@@ -32,9 +32,8 @@ add_filter( 'wp_title', 'darktt_wp_title', 10, 2 );
  * Tell WordPress to add our scripts to the head.
  */
 function darktt_theme_scripts() {
-	wp_enqueue_style('style', get_stylesheet_uri(), false, 0.1);
+	wp_enqueue_style('darktt-style', get_stylesheet_uri(), false, 0.1);
 
-	wp_enqueue_script( 'jquery' );
-    wp_enqueue_script( 'menu', get_stylesheet_directory_uri() . '/js/menu.js', false, 0.1);
+	wp_enqueue_script( 'darktt-menu', get_stylesheet_directory_uri() . '/js/menu.js', array('jquery'), false, 0.1);
 }
 add_action('wp_enqueue_scripts', 'darktt_theme_scripts');

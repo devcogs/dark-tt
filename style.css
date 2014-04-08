@@ -1,13 +1,18 @@
 /*
- Theme Name:   Dark TT
- Theme URI:    http://www.seismicthemes.com/dark-tt/
- Description:  A dark Twenty Ten child theme, with a sticky menu.
- Author:       Seismic Themes
- Author URI:   http://www.seismicthemes.com
- Template:     twentyten
- Version:      0.1
- Tags:         dark, two-columns, right-sidebar, fixed-layout, translation-ready
- Text Domain:  darktt
+Theme Name:   Dark TT
+Theme URI:    http://www.seismicthemes.com/dark-tt/
+Description:  A dark Twenty Ten child theme, with a sticky menu.
+Author:       Seismic Themes
+Author URI:   http://www.seismicthemes.com
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template:     twentyten
+Version:      0.2
+Tags:         dark, two-columns, right-sidebar, fixed-layout, translation-ready
+Text Domain:  darktt
+
+Twenty Ten WordPress Theme, Copyright 2014 WordPress.org
+Twenty Ten is distributed under the terms of the GNU GPL
 */
 
 @import url("../twentyten/style.css");
