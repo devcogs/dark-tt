@@ -48,14 +48,8 @@
 						// Houston, we have a new header image!
 						echo get_the_post_thumbnail( $post->ID );
 					elseif ( get_header_image() ) :
-						// Compatibility with versions of WordPress prior to 3.4.
-						if ( function_exists( 'get_custom_header' ) ) {
-							$header_image_width  = get_custom_header()->width;
-							$header_image_height = get_custom_header()->height;
-						} else {
-							$header_image_width  = HEADER_IMAGE_WIDTH;
-							$header_image_height = HEADER_IMAGE_HEIGHT;
-						}
+						$header_image_width  = get_custom_header()->width;
+						$header_image_height = get_custom_header()->height;
 					?>
 						<img src="<?php header_image(); ?>" width="<?php echo $header_image_width; ?>" height="<?php echo $header_image_height; ?>" alt="" />
 					<?php endif; ?>
