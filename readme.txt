@@ -4,6 +4,9 @@ menu.js copyright seismicthemes.com, released under GPL v2
 
 == Changelog ==
 
+= 0.6 - Apr 18 2014 =
+* CSS updates
+
 = 0.4 - Apr 8 2014 =
 * update stylesheet
 * header image fixes
