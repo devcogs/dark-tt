@@ -32,7 +32,7 @@
 					<?php printf( __('Proudly powered by %s.', 'darktt'), 'WordPress' ); ?><br/>
 				</a>
 				<p class="shake-me">
-					<a href="<?php echo esc_url('http://www.seismicthemes.com/dark-tt'); ?>" title="Twenty Ten Dark Child Theme">
+					<a href="<?php echo esc_url('https://www.seismicthemes.com/dark-twentyten/'); ?>" title="Twenty Ten Dark Child Theme">
 						Twenty Ten Dark 
 					</a>
 					 by Seismic Themes

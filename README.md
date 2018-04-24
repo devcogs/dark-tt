@@ -28,6 +28,12 @@ A dark Twenty Ten child theme, with a few new features.
  * Click Install Now
  * Activate Theme
 
+####  v0.7  Changes:
+
+ * CSS updates
+ * screenshot resize
+ * remove out dated tags from style.css
+
 ####  v0.6 Changes:
 
  * CSS updates

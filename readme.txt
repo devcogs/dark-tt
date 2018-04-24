@@ -4,6 +4,11 @@ menu.js copyright seismicthemes.com, released under GPL v2
 
 == Changelog ==
 
+= 0.7 - Apr 23 2018 =
+* CSS updates
+* screenshot resize
+* remove out dated tags from style.css
+
 = 0.6 - Apr 18 2014 =
 * CSS updates
 

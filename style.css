@@ -1,14 +1,14 @@
 /*
 Theme Name:   Dark TT
-Theme URI:    http://www.seismicthemes.com/dark-tt/
+Theme URI:    https://www.seismicthemes.com/dark-twentyten/
 Description:  A dark Twenty Ten child theme, with a sticky menu.
 Author:       Seismic Themes
-Author URI:   http://www.seismicthemes.com
+Author URI:   https://www.seismicthemes.com
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template:     twentyten
-Version:      0.6
-Tags:         dark, two-columns, right-sidebar, fixed-layout, translation-ready
+Version:      0.7
+Tags:         two-columns, right-sidebar, translation-ready
 Text Domain:  darktt
 
 Dark TT WordPress Theme, Copyright 2014 seismicthemes.com
@@ -204,6 +204,8 @@ a:hover {
 }
 #content .entry-title {
 	color: #ddd;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
 }
 #content .entry-title,
 #content .entry-title a {
@@ -371,8 +373,9 @@ img[class*="wp-image-"],
 .rtl .commentlist .children li.comment {
 	border-color: #222;
 }
+.comment-author .fn,
 .comment-meta {
-	color: #999;
+	color: #f9f9f9;
 }
 .commentlist .avatar {
 	-webkit-box-shadow: 0 1px 2px #222;
@@ -393,7 +396,7 @@ li.bypostauthor a.comment-reply-link:hover,
 li.bypostauthor a.comment-reply-link:focus,
 li.bypostauthor a.comment-reply-link:active {
 	background: #999;
-	color: #000;
+	color: #f9f9f9;
 }
 
 /* Comment Form */
