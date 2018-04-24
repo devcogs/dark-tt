@@ -3,7 +3,7 @@ Dark TT
 
 A dark Twenty Ten child theme, with a few new features.
 
-![Dark TT Screenshot](http://www.seismicthemes.com/wp-content/uploads/2014/04/darktt-screenshot.png)
+![Dark TT Screenshot](https://raw.githubusercontent.com/seismicthemes/dark-tt/master/screenshot.png)
 
 ### How to install:
 
