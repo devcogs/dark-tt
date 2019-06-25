@@ -32,10 +32,10 @@
 					<?php printf( __('Proudly powered by %s.', 'darktt'), 'WordPress' ); ?><br/>
 				</a>
 				<p class="shake-me">
-					<a href="<?php echo esc_url('https://www.seismicthemes.com/dark-twentyten/'); ?>" title="Twenty Ten Dark Child Theme">
+					<a href="<?php echo esc_url('https://cogs.dev/'); ?>" title="Twenty Ten Dark Child Theme">
 						Twenty Ten Dark 
 					</a>
-					 by Seismic Themes
+					 by Dev Cogs
 				</p>
 			</div><!-- #site-generator -->
 
